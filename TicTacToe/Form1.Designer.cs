@@ -159,6 +159,7 @@
             this.RBtn.TabIndex = 9;
             this.RBtn.Text = "Reset";
             this.RBtn.UseVisualStyleBackColor = true;
+            this.RBtn.Click += new System.EventHandler(this.RBtn_Click);
             // 
             // button1
             // 
@@ -169,6 +170,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

@@ -152,5 +152,23 @@ namespace TicTacToe
                 }
             }
         }
+
+        private void RBtn_Click(object sender, EventArgs e)
+        {
+            Btn_1.Text = "";
+            Btn_2.Text = "";
+            Btn_3.Text = "";
+            Btn_4.Text = "";
+            Btn_5.Text = "";
+            Btn_6.Text = "";
+            Btn_7.Text = "";
+            Btn_8.Text = "";
+            Btn_9.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
