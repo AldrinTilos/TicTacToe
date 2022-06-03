@@ -193,7 +193,7 @@
             this.Font = new System.Drawing.Font("Swis721 BlkEx BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "TicTacToe";
             this.ResumeLayout(false);
 
         }
