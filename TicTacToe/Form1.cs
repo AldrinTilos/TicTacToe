@@ -27,7 +27,7 @@ namespace TicTacToe
                 {
                     if (Btn_2.Text == Btn_3.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_1.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_1.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -37,7 +37,7 @@ namespace TicTacToe
                 {
                     if (Btn_4.Text == Btn_7.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_1.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_1.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -47,7 +47,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_9.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_1.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_1.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -56,7 +56,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -81,7 +81,7 @@ namespace TicTacToe
                 {
                     if (Btn_3.Text == Btn_1.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_2.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_2.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -91,7 +91,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_8.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_2.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_2.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -100,7 +100,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -126,7 +126,7 @@ namespace TicTacToe
                 {
                     if (Btn_2.Text == Btn_1.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_3.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_3.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -136,7 +136,7 @@ namespace TicTacToe
                 {
                     if (Btn_6.Text == Btn_9.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_3.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_3.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -146,7 +146,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_7.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_3.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_3.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -155,7 +155,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -180,7 +180,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_6.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_4.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_4.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -190,7 +190,7 @@ namespace TicTacToe
                 {
                     if (Btn_7.Text == Btn_1.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_4.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_4.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -199,7 +199,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -224,7 +224,7 @@ namespace TicTacToe
                 {
                     if (Btn_6.Text == Btn_4.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_5.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_5.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -234,7 +234,7 @@ namespace TicTacToe
                 {
                     if (Btn_8.Text == Btn_2.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_5.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_5.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -244,7 +244,7 @@ namespace TicTacToe
                 {
                     if (Btn_9.Text == Btn_1.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_5.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_5.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -254,7 +254,7 @@ namespace TicTacToe
                 {
                     if (Btn_3.Text == Btn_7.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_5.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_5.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -263,7 +263,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -288,7 +288,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_4.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_6.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_6.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -298,7 +298,7 @@ namespace TicTacToe
                 {
                     if (Btn_9.Text == Btn_3.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_6.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_6.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -307,7 +307,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -332,7 +332,7 @@ namespace TicTacToe
                 {
                     if (Btn_8.Text == Btn_9.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_7.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_7.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -342,7 +342,7 @@ namespace TicTacToe
                 {
                     if (Btn_4.Text == Btn_1.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_7.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_7.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -352,7 +352,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_3.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_7.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_7.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -361,7 +361,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -386,7 +386,7 @@ namespace TicTacToe
                 {
                     if (Btn_9.Text == Btn_7.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_8.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_8.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -395,7 +395,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_2.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_8.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_8.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -404,7 +404,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
@@ -429,7 +429,7 @@ namespace TicTacToe
                 {
                     if (Btn_8.Text == Btn_7.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_9.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_9.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -439,7 +439,7 @@ namespace TicTacToe
                 {
                     if (Btn_6.Text == Btn_3.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_9.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_9.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -449,7 +449,7 @@ namespace TicTacToe
                 {
                     if (Btn_5.Text == Btn_1.Text)
                     {
-                        MessageBox.Show("Congratsss You Win " + Btn_9.Text);
+                        MessageBox.Show("CONGRATSSS YOU WIN " + Btn_9.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                         player = 0;
                     }
@@ -458,7 +458,7 @@ namespace TicTacToe
                 player = player + 1;
                 if (player == 9)
                 {
-                    MessageBox.Show("Nice Game It's A Draw");
+                    MessageBox.Show("NICE GAME IT'S A DRAW");
                     Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     player = 0;
                 }
