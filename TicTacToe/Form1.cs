@@ -56,5 +56,53 @@ namespace TicTacToe
                 }
             }
         }
+
+        private void Btn_4_Click(object sender, EventArgs e)
+        {
+            if (Btn_4.Text == "")
+            {
+                Btn_4.Text = BtnValue;
+                if (BtnValue == "X")
+                {
+                    BtnValue = "O";
+                }
+                else
+                {
+                    BtnValue = "X";
+                }
+            }
+        }
+
+        private void Btn_5_Click(object sender, EventArgs e)
+        {
+            if (Btn_5.Text == "")
+            {
+                Btn_5.Text = BtnValue;
+                if (BtnValue == "X")
+                {
+                    BtnValue = "O";
+                }
+                else
+                {
+                    BtnValue = "X";
+                }
+            }
+        }
+
+        private void Btn_6_Click(object sender, EventArgs e)
+        {
+            if (Btn_6.Text == "")
+            {
+                Btn_6.Text = BtnValue;
+                if (BtnValue == "X")
+                {
+                    BtnValue = "O";
+                }
+                else
+                {
+                    BtnValue = "X";
+                }
+            }
+        }
     }
 }
