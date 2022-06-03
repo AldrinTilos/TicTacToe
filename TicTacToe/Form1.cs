@@ -39,6 +39,15 @@ namespace TicTacToe
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     }
                 }
+                // Diagonal Check
+                else if (Btn_1.Text == Btn_5.Text)
+                {
+                    if (Btn_5.Text == Btn_9.Text)
+                    {
+                        MessageBox.Show("Congratsss You Win " + Btn_1.Text);
+                        Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+                    }
+                }
             }
         }
 
@@ -102,6 +111,15 @@ namespace TicTacToe
                 else if (Btn_3.Text == Btn_6.Text)
                 {
                     if (Btn_6.Text == Btn_9.Text)
+                    {
+                        MessageBox.Show("Congratsss You Win " + Btn_3.Text);
+                        Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+                    }
+                }
+                // Diagonal Check
+                else if (Btn_3.Text == Btn_5.Text)
+                {
+                    if (Btn_5.Text == Btn_7.Text)
                     {
                         MessageBox.Show("Congratsss You Win " + Btn_3.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
@@ -175,6 +193,24 @@ namespace TicTacToe
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     }
                 }
+                // Diagonal Check
+                else if (Btn_5.Text == Btn_9.Text)
+                {
+                    if (Btn_9.Text == Btn_1.Text)
+                    {
+                        MessageBox.Show("Congratsss You Win " + Btn_5.Text);
+                        Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+                    }
+                }
+                // Diagonal Check 2.0
+                else if (Btn_5.Text == Btn_3.Text)
+                {
+                    if (Btn_3.Text == Btn_7.Text)
+                    {
+                        MessageBox.Show("Congratsss You Win " + Btn_5.Text);
+                        Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+                    }
+                }
             }
         }
 
@@ -238,6 +274,15 @@ namespace TicTacToe
                 else if (Btn_7.Text == Btn_4.Text)
                 {
                     if (Btn_4.Text == Btn_1.Text)
+                    {
+                        MessageBox.Show("Congratsss You Win " + Btn_7.Text);
+                        Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+                    }
+                }
+                // Diagonal Check
+                else if (Btn_7.Text == Btn_5.Text)
+                {
+                    if (Btn_5.Text == Btn_3.Text)
                     {
                         MessageBox.Show("Congratsss You Win " + Btn_7.Text);
                         Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
@@ -307,7 +352,16 @@ namespace TicTacToe
                     if (Btn_6.Text == Btn_3.Text)
                     {
                         MessageBox.Show("Congratsss You Win " + Btn_9.Text);
-                        Btn_1.Text = Btn_2.ext = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+                        Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+                    }
+                }
+                // Diagonal Check
+                else if (Btn_9.Text == Btn_5.Text)
+                {
+                    if (Btn_5.Text == Btn_1.Text)
+                    {
+                        MessageBox.Show("Congratsss You Win " + Btn_9.Text);
+                        Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
                     }
                 }
             }
