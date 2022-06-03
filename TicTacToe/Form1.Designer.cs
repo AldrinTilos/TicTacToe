@@ -45,6 +45,7 @@
             // Btn_1
             // 
             this.Btn_1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_1.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_1.Location = new System.Drawing.Point(58, 37);
             this.Btn_1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_1.Name = "Btn_1";
@@ -56,26 +57,31 @@
             // Btn_2
             // 
             this.Btn_2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_2.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_2.Location = new System.Drawing.Point(58, 103);
             this.Btn_2.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_2.Name = "Btn_2";
             this.Btn_2.Size = new System.Drawing.Size(149, 59);
             this.Btn_2.TabIndex = 1;
             this.Btn_2.UseVisualStyleBackColor = false;
+            this.Btn_2.Click += new System.EventHandler(this.Btn_2_Click);
             // 
             // Btn_3
             // 
             this.Btn_3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_3.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_3.Location = new System.Drawing.Point(58, 168);
             this.Btn_3.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_3.Name = "Btn_3";
             this.Btn_3.Size = new System.Drawing.Size(149, 59);
             this.Btn_3.TabIndex = 2;
             this.Btn_3.UseVisualStyleBackColor = false;
+            this.Btn_3.Click += new System.EventHandler(this.Btn_3_Click);
             // 
             // Btn_6
             // 
             this.Btn_6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_6.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_6.Location = new System.Drawing.Point(217, 168);
             this.Btn_6.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_6.Name = "Btn_6";
@@ -86,6 +92,7 @@
             // Btn_5
             // 
             this.Btn_5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_5.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_5.Location = new System.Drawing.Point(217, 103);
             this.Btn_5.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_5.Name = "Btn_5";
@@ -96,6 +103,7 @@
             // Btn_4
             // 
             this.Btn_4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_4.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_4.Location = new System.Drawing.Point(217, 37);
             this.Btn_4.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_4.Name = "Btn_4";
@@ -106,6 +114,7 @@
             // Btn_9
             // 
             this.Btn_9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_9.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_9.Location = new System.Drawing.Point(376, 168);
             this.Btn_9.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_9.Name = "Btn_9";
@@ -116,6 +125,7 @@
             // Btn_8
             // 
             this.Btn_8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_8.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_8.Location = new System.Drawing.Point(376, 103);
             this.Btn_8.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_8.Name = "Btn_8";
@@ -126,6 +136,7 @@
             // Btn_7
             // 
             this.Btn_7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Btn_7.Font = new System.Drawing.Font("Swis721 BlkEx BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Btn_7.Location = new System.Drawing.Point(376, 37);
             this.Btn_7.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.Btn_7.Name = "Btn_7";
