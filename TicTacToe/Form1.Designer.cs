@@ -157,7 +157,7 @@
             this.RBtn.Name = "RBtn";
             this.RBtn.Size = new System.Drawing.Size(125, 56);
             this.RBtn.TabIndex = 9;
-            this.RBtn.Text = "Reset";
+            this.RBtn.Text = "RESET";
             this.RBtn.UseVisualStyleBackColor = true;
             this.RBtn.Click += new System.EventHandler(this.RBtn_Click);
             // 
@@ -168,7 +168,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 56);
             this.button1.TabIndex = 10;
-            this.button1.Text = "Exit";
+            this.button1.Text = "EXIT";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -191,8 +191,14 @@
             this.Controls.Add(this.Btn_2);
             this.Controls.Add(this.Btn_1);
             this.Font = new System.Drawing.Font("Swis721 BlkEx BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "TicTacToe";
             this.ResumeLayout(false);
 
