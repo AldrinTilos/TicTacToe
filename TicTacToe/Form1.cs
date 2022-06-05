@@ -4,6 +4,11 @@ namespace TicTacToe
     {
         String BtnValue = "X";
         int player = 0;
+        int turn = 0;
+        //Counting Wins For X and O and Draws;
+        int l1 = 0;
+        int l2 = 0;
+        int l3 = 0;
         public Form1()
         {
             InitializeComponent();
@@ -473,6 +478,36 @@ namespace TicTacToe
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void X_Win_Click(object sender, EventArgs e)
+        {
+            X_Win.Text = "X: " + l1;
+        }
+        void NewGame()
+        {
+            player = 0;
+            Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+            X_Win.Text = "X: " + l1;
+        }
+
+        private void O_Win_Click(object sender, EventArgs e)
+        {
+            player = 0;
+            Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+            O_Win.Text = "O: " + l2;
+        }
+
+        private void Draws_Click(object sender, EventArgs e)
+        {
+            player = 0;
+            Btn_1.Text = Btn_2.Text = Btn_3.Text = Btn_4.Text = Btn_5.Text = Btn_6.Text = Btn_7.Text = Btn_8.Text = Btn_9.Text = "";
+            Draws.Text = "Draws: " + l3;
         }
     }
 }
